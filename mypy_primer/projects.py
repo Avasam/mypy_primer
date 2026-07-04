@@ -961,6 +961,7 @@ def get_projects() -> list[Project]:
                 "attrs",
                 "types-six",
                 "types-setuptools",
+                "setuptools",  # For distutils --> setuptools._distutils alias
                 "types-docutils",
                 "types-PyYAML",
                 "types-protobuf",
