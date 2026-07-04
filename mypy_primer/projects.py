@@ -500,7 +500,8 @@ def get_projects() -> list[Project]:
             pyright_cmd="{pyright} {paths}",
             paths=["aioredis"],
             deps=[
-                "async-timeout" "types-setuptools",
+                "async-timeout",
+                "types-setuptools",
                 "setuptools>=83",  # For distutils --> setuptools._distutils alias
             ],
             cost={"mypy": 14, "ty": 1},
